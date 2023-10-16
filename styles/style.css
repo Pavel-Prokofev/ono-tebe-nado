@@ -28,7 +28,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 92px 50px;
+  padding: 91px 50px;
   align-items: center;
   font-size: 18px;
   line-height: 1.35;
@@ -44,11 +44,16 @@
   list-style-type: none;
 }
 
+.header__logo-link {
+  text-decoration: none;
+  justify-self: center;
+}
+
 .header__logo {
   width: 148px;
   height: 105px;
-  justify-self: center;
-  margin-bottom: 4px;
+  object-fit: contain;
+  object-position: center;
 }
 
 .header__address {
